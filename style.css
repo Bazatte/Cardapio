@@ -8,8 +8,6 @@ body {
     flex-direction: column;
 }
 
-
-
 main {
     max-width: 600px;
     width: 100%;
@@ -43,8 +41,13 @@ section {
     color: #2E7D32;
 }
 
-.destaque{ background-color: gold;}
-.card.destaque h2{ color: rgb(156, 0, 0);}
+.destaque{ 
+    background-color: gold;
+}
+
+.card.destaque h2{ 
+    color: rgb(156, 0, 0);
+}
 
 #topo {
     background-color: #eb5a5a;
@@ -58,6 +61,27 @@ section {
     color: #fff;
     text-align: center;
     padding: 24px;
+}
+
+.selecionado { 
+    border-color: black;
+}
+
+#limpar {
+    padding: 8px 14px;
+    border: 1px solid #7772e7;
+    background: white;
+    color: #7772e7;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#resumo {
+    color: red;
+}
+
+.aviso {
+    color: rgb(1, 136, 1);
 }
 
 /*617320636f726573206f726967696e616973207061726563656d20617320646520756d2070696e746f2e*/
